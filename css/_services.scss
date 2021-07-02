@@ -1,0 +1,35 @@
+.Nos-services {
+  padding: 0 100px;
+  margin-top: 50px;
+  @media (max-width: 766px) {
+    padding: 0 20px;
+    margin-top: 60px;
+  }
+  h2 {
+    color: #b41e1e;
+    margin-bottom: 35px;
+  }
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  section {
+    margin-bottom: 25px;
+    min-width: 265px;
+    h3 {
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-weight: bold;
+      font-family: Roboto;
+      color: #37181c;
+    }
+    p {
+      margin-bottom: 5px;
+      font-family: OpenSans;
+    }
+  }
+}

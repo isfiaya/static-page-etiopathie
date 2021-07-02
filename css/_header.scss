@@ -1,0 +1,64 @@
+.banner {
+  position: relative;
+  background-image: url(../images/hero.png);
+  min-height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.info {
+  width: 43%;
+  min-width: 285px;
+  color: white;
+  background: rgba(25, 25, 25, 0.5);
+  position: absolute;
+  left: 15%;
+  bottom: 23%;
+  padding: 0px 25px 20px 25px;
+  @media (max-width: 992px) {
+    left: 5%;
+    bottom: 5%;
+  }
+  h1 {
+    margin: 10px 0 20px 0;
+    color: #ffffff;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    font-family: PlayfairDisplay;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+  p {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-family: ProximaNova;
+    letter-spacing: 0.45px;
+    line-height: 1.39;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+  }
+  .btn-savoir {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border: solid 2px white;
+    width: 40%;
+    margin-right: 15px;
+    min-width: 131px;
+    @media (max-width: 792px) {
+      margin-bottom: 10px;
+    }
+  }
+  .btn-contactez {
+    background-color: #b41e1e;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 40%;
+    margin-right: 10px;
+    min-width: 131px;
+  }
+}

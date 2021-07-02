@@ -1,0 +1,47 @@
+.who-we-are {
+  width: 100%;
+  padding: 0 100px;
+  position: relative;
+  @media (max-width: 766px) {
+    padding: 0 20px;
+  }
+  .doctor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      margin-top: 85px;
+      // height: 100%;
+      // width: 100%;
+    }
+  }
+}
+
+.description {
+  h2 {
+    color: #b41e1e;
+    margin: 25px 0 25px 0;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+  }
+  p {
+    margin-bottom: 20px;
+    font-family: OpenSans;
+  }
+  button {
+    background-color: #b41e1e;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 45%;
+    font-family: Raleway;
+    letter-spacing: -0.4px;
+    text-align: center;
+  }
+  .signature {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 150px;
+  }
+}
